@@ -5,23 +5,22 @@
 ## Dataset Link
 Official website
 
-CMU-MOSI: http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/
-
-CMU-MOSEI: http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/
+Download the dataset from google drive https://drive.google.com/file/d/1XM10fmAXndVLtXWOt5G0puYSQyI2veWy/view?usp=sharing
 ## Usage
 
 ## Results
 Comparison Experiment.
-|Model|ACC\%(↑)|F1\%(↑)|MAE(↓)|Corr(↑)|
-|----|----|----|----|----|
-|TFN|77.1|77.9|0.87|0.70|
-|LMF|76.4|75.7|0.912|0.668|
-|MFN|77.4|77.3|0.965|0.632|
-|Mult|83.0|82.8|0.871|0.698|
-|MISA|83.4|83.6|0.783|0.761|
-|Self-MM|85.17|85.30|**0.530↓**|0.765|
-|AOBERT|85.57|86.33|0.856|0.700|
-|XLNET|85.34|85.32|0.730|0.813|
-|MAG-XLNet|86.22|86.20|0.591|0.796|
-|$A^{2} H^{2} $(Ours)|**87.97↑**|**87.95↑**|0.671|**0.831↑**|
+|Model|mloU\%(↑)|DSC\%(↑)|Acc(↑)|Spe(↑)|Sen(↑)|
+|----|----|----|----|----|----|
+|UNet|75.78|85.46|93.42|96.69|83.45|
+|UNet++|76.27|85.97|93.34|95.75|88.64|
+|Att-Unet|76.34|86.11|93.46|96.23|86.24|
+|UTNetV2|76.88|86.55|93.68|96.48|86.54|
+|SANet|77.82|86.88|93.76|95.97|88.84|
+|TransFuse|78.57|87.38|94.08|95.74|89.98|
+|MALUNet|78.24|87.33|94.01|96.19|89.10|
+|UNetV2|78.68|87.45|94.12|96.94|88.34|
+|VM-UNet|79.13|87.71|94.28|96.13|89.53|
+|VM-UNetV2|79.31|87.83|94.37|97.87|88.64|
+|MSS-UNet(Ours)|**81.01↑**|**89.98↑**|95.39|**97.25↑**|90.16|
 ## Citation
